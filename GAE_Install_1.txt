@@ -1,0 +1,20 @@
+https://www.npackd.org/p/com.google.AppEnginePythonSDK/1.9.62
+
+https://www.python.org/downloads/release/python-279/
+
+Editor - Preferences - Python Path
+
+Python path should be of the pythonw.exe: C:/Python27 and stuff
+
+For app engine sdk it should be of g a e C:/googleappengine at the end sumn.
+
+empty folder - app
+
+after that 
+
+File - create new application - name : engineapp - parent directory as the one that you newly created(app)
+
+ok - create - click on app - run it.
+
+check localhost:8080
+
