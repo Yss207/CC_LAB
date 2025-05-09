@@ -1,3 +1,5 @@
+Google App Engine (GAE) is a Platform-as-a-Service (PaaS) offering by Google. It allows developers to build, deploy, and manage web applications without the need to manage the underlying infrastructure. With GAE, you focus on writing your code while Google handles tasks like server provisioning, scaling, load balancing, and security. This lets you concentrate on development, leaving the infrastructure management to Google.
+
 https://www.npackd.org/p/com.google.AppEnginePythonSDK/1.9.62
 
 https://www.python.org/downloads/release/python-279/
