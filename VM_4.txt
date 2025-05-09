@@ -1,0 +1,69 @@
+Install VBox & Image from YT Vid.
+
+Create new NAT network inside VBOX - prefs - network - create new NAT - edit if required - make sure it has 10.0.2.0/24 CIDR
+
+Now - for the newly created vms - go to settings - ntwk - select this newly created nat network in attached to part.
+
+Launch both side by side.
+
+login & pswd: vagrant
+
+check ifconfig on both.
+
+ping both by putting ips.
+
+1)commands on lhs vm
+
+ls
+
+touch file.txt
+
+nano file.txt
+
+enter content - ctr x, y, enter
+
+sudo apt install net-tools for scp
+
+Main cmd: scp transfer.txt vagrant@second_vm_ip:/home/vagrant
+
+enter pswd as vagrant
+
+
+2)for rhs vm:
+
+ls /home/vagrant/
+
+🔄 NAT Network (Network Address Translation Network)
+A NAT network in VirtualBox is a virtual private network that allows virtual machines to communicate with each other while sharing the host’s internet connection. Each VM gets a private IP address from VirtualBox’s NAT engine, and traffic is translated (NATed) to appear as if it’s coming from the host machine. This ensures both internal VM communication and controlled external access.
+
+🧮 CIDR (Classless Inter-Domain Routing)
+CIDR is a method for allocating IP addresses and routing IP packets. A CIDR block defines a range of IP addresses.
+Example: 172.168.2.0/24 means:
+
+Network ID: 172.168.2
+
+Host range: 172.168.2.1 to 172.168.2.254
+
+Up to 254 devices can be uniquely addressed within this subnet.
+
+📶 ping Command
+ping is a network diagnostic command that checks if a machine (like a VM) is reachable over a network.
+
+🔐 scp Command (Secure Copy Protocol)
+scp is used to securely transfer files between computers (or VMs) over a network 
+
+Explanation:
+
+scp: invokes the secure copy protocol
+
+transfer.txt: file to transfer (from VM1)
+
+vagrant@172.168.2.5: target user and IP address (VM2)
+
+/home/vagrant: destination folder on VM2
+
+Once run, it prompts for the VM2 user’s password (in this case, vagrant), and if authentication is successful, the file is transferred.
+
+
+
+
