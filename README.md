@@ -12,6 +12,8 @@ https://www.youtube.com/watch?v=0MaS0nZCTZc (4th)
 
 https://download.virtualbox.org/virtualbox/6.0.24/VirtualBox-6.0.24-139119-Win.exe (oracle vbox)
 
+https://chatgpt.com/share/681ec650-b6b0-8003-aea1-979735f9f67d (info on vm)
+
 https://www.salesforce.com/form/developer-signup/?d=pb (salesforce - signup)
 
 https://orgfarm-7a3c712b4a-dev-ed.develop.my.salesforce.com/ (salesforce - login)
